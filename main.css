@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 1px!important;
+}
+
+.menu-1 {
+    width: 100%;
+    background-color: #421855;
+    height: 80px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 60%;
+}
+
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    margin-top: 15px;
+}
+
+.header-2 {
+    background-color: rgb(255, 254, 254);
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 100px;
+    border-bottom: 10px solid #421855;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 28px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #421855;
+}
+
+.menu ul li a:hover {
+    color: #421855;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../imagens/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 32px;
+    padding: 2px;
+    width: 180px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../imagens/anterior.png');
+    top: 35%;
+    left: 12%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../imagens/proximo.png');
+    top: 35%;
+    right: 12%;
+}
+
+.slick-list {
+    width: 100%;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 10%;
+    color: transparent;
+    border: 3px solid #ffffff;
+    width: 36%;
+    height: 36%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 420px;
+}
+
+li.slick-active button {
+    background: #646464;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #421855;
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer p {
+    padding: 10px;
+}
